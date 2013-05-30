@@ -1,0 +1,229 @@
+/*
+ 	DECKR DESKTOP AIR APPLICATION
+ 	
+ 	CREATED BY JASON HARRIS
+ 	
+ 	FOR THE PURPOSE OF FULL SAIL UNIVERSITY DEGREE PROGRAM WEB DESIGN AND DEVELOPMENT
+ 	
+ 	
+ */
+
+/* Reset browser settings to have a uniformed appearance */
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+/* Baseline and Body styles */
+
+body
+{
+	background: #70321a;
+	font-family: "Lucida Grande";
+	font-size: 16px;
+	color: #fbd7c4;
+}
+
+#special_wrapper
+{
+	background: #000000;
+	padding: 30px;
+	border: 4px solid #fbd7c4;
+	margin: 20px 50px;
+	
+}
+
+header
+{
+	margin: 10px;
+	font-size: 1.3em;
+}
+
+#topShot
+{
+	width: 520px;
+	border-right: 1px solid #fbd7c4;
+}
+
+#salePitch
+{
+	width: 200px;
+	padding: 50px  40px;
+	font-size: 1.2em;
+	
+}
+
+#topLink
+{
+	background: #fbd7c4;
+	width: 200px;
+	padding: 30px;
+	
+}
+
+#topShot,#salePitch, #topLink
+{
+	position:relative;
+	float: left;
+	margin: 30px;
+}
+
+#topShot, #first
+{
+	clear: left;
+}
+
+.paragraph
+{
+	width: 250px;
+	font-size: 1.2em;
+	margin-left: 85px;
+	float: left;
+}
+
+.support
+{
+	width: 150px;
+	font-size: 1.2em;
+	margin-left: 135px;
+	float: left;
+}
+
+#mail
+{
+	font-size: .75em;
+	color: #fbd7c4;
+}
+
+.title
+{
+	margin-bottom: 20px;
+}
+
+.present
+{
+	width: 300px;
+}
+
+.future
+{
+	width: 350px;
+}
+
+/*                                                 makeMeScrollable definitions                                                                     */
+
+#makeMeScrollable
+{
+	background: #000000;
+	position: relative;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	/* If you don't want the images in the scroller to be selectable, try the following
+		block of code. It's just a nice feature that prevent the images from
+		accidentally becoming selected/inverted when the user interacts with the scroller. */
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+}
+
+.scroll 
+{
+	width: 256px;
+	height: 256px;
+	margin-left: 30px;
+	padding-left: 10px;
+}
+
+ /*                                                   end of makeMeScrollable definitions                                                        */
+
+footer
+{
+	clear: left;
+	padding-top: 150px;
+}
+
+#nxtClickArea
+{
+	margin-top: 50px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
